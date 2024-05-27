@@ -6,6 +6,8 @@ Flutter needs to be set up with `flutter doctor`
 
 You can attach to the container with the command from utils/docker_attach_latest.sh
 
+I needed to run `xhost +local:docker` to start the Studio GUI, probably because of wayland. You need to be in the docker group.
+
 compose.yml doesn't work yet
 
 Android-Studio docker container
